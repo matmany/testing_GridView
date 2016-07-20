@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/icone_caderno"
+    >
+
+    <Button
+        android:id="@+id/note"
+        android:layout_marginTop="20dp"
+        app:layout_widthPercent="20%"
+        app:layout_heightPercent="20%"
+        android:background="#00B0B0"
+        android:text="Geografia"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+
+
+        >
+    </Button>
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/note"
+        app:layout_marginTopPercent="20%"
+        android:textColor="#00CED1"
+        android:text="CADERNO DE GEOGRAFIA"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/note"
+        app:layout_marginTopPercent="23%"
+        android:text="ULTIMA ANOTAÇÃO"
+        android:layout_centerHorizontal="true"
+
+        android:layout_alignStart="@+id/nome"
+        android:layout_alignLeft="@+id/nome"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_/_/_"
+        android:layout_alignTop="@+id/note"
+        app:layout_marginTopPercent="26%"
+        android:layout_centerHorizontal="true"
+
+        android:layout_alignStart="@+id/nome"
+        android:layout_alignLeft="@+id/nome"
+        />
+
+
+
+</android.support.percent.PercentRelativeLayout>
